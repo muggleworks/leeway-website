@@ -2,11 +2,51 @@
   .footer {
     background-color:#FEF6F4;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     height: 70px;
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
+  }
+  .download-section {
+    background-color:#DA6B90;
+    height: 201px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .download-content {
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex; 
+    align-items: center;
+    gap: 180px;
+  }
+  .download-button {
+     display: flex;
+     align-items: center;
+     gap: 34px;
+  }
+  .download-button1 {
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    display: block;
+    color:#000000;
+    text-decoration: none;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 20px;
+  }
+  .download-button1 p {
+    margin: 0;
+    font-size: 13px;
+  }
+  .download-button1 p:nth-child(2) {
+    font-size: 20px;
   }
