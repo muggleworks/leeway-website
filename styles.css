@@ -4,9 +4,63 @@
     text-align: center;
     border-radius: 20px;
     height: 70px;
+    width: 1724px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
   }
+  .parent {
+    background-color:#DA6B90;
+    width: 1724px;
+    height: 201px;
+    left: 98px;
+    top: 2912px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+   .child{
+    color: #FFFFFF;
+    width: 417px;
+    height: 31px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    text-transform: lowercase;
+  }
+  .download-button1 a{
+    background-color: #FFFFFF;
+    border-radius: 10.0159px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.0159px 25.8786px 10.0159px 18.3625px;
+    gap: 21.7px;
+    width: 217.68px;
+    height: 70.03px;
+    left: 597px;
+    top: 0px;
+    
+  }
+  .download-button2 a{
+    background-color: #FFFFFF;
+    border-radius: 10.0159px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 10.0159px 25.8786px 10.0159px 18.3625px;
+    gap: 21.7px;
+    width: 209.68px;
+    height: 70.03px;
+    left: 848.65px;
+    top: 0px;
+  }
+  
+  
