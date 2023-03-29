@@ -25,12 +25,12 @@
     align-items: center;
     gap: 180px;
   }
-  .download-button {
+  .download-buttons {
      display: flex;
      align-items: center;
      gap: 34px;
   }
-  .download-button1 {
+  .download-button {
     background-color:#FFFFFF;
     border-radius: 10px;
     display: block;
@@ -43,10 +43,10 @@
     padding: 8px 24px;
     gap: 20px;
   }
-  .download-button1 p {
+  .download-button p {
     margin: 0;
     font-size: 13px;
   }
-  .download-button1 p:nth-child(2) {
+  .download-button p:nth-child(2) {
     font-size: 20px;
   }
