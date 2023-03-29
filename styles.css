@@ -93,3 +93,54 @@
   gap: 30px;
   align-items: center;
 }
+
+.howitworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+  border-radius: 20px;
+  background-color: #f1e8ed;
+}
+
+.mobile {
+  height: 790px;
+}
+
+.howitworks-content h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 50px;
+  color: #000000;
+  height: 80px;
+}
+
+.howitworks-content p {
+  width: 500px;
+  font-size: 14px;
+}
+
+.getleeway {
+  background: linear-gradient(#EC7363 2.05%, #EA6290 97.7%);
+  text-decoration: none;
+  width: 134px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.howitworks-content {
+  flex: 1;
+}
