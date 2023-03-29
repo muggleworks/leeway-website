@@ -1,52 +1,95 @@
+.footer {
+  background-color: #FEF6F4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 70px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-size: 14px;
+}
 
-  .footer {
-    background-color:#FEF6F4;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    height: 70px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-size: 14px;
-  }
-  .download-section {
-    background-color:#DA6B90;
-    height: 201px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .download-content {
-    color: #FFFFFF;
-    font-size: 30px;
-    display: flex; 
-    align-items: center;
-    gap: 180px;
-  }
-  .download-buttons {
-     display: flex;
-     align-items: center;
-     gap: 34px;
-  }
-  .download-button {
-    background-color:#FFFFFF;
-    border-radius: 10px;
-    display: block;
-    color:#000000;
-    text-decoration: none;
-    width: 180px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 20px;
-  }
-  .download-button p {
-    margin: 0;
-    font-size: 13px;
-  }
-  .download-button p:nth-child(2) {
-    font-size: 20px;
-  }
+.download-section {
+  background-color: #DA6B90;
+  height: 201px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.download-content {
+  color: #FFFFFF;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+
+.download-buttons {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.download-button {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  width: 180px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 20px;
+}
+
+.download-button p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.download-button p:nth-child(2) {
+  font-size: 20px;
+}
+
+.icon {
+  width: 130px;
+  height: 80px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+}
+
+.leeway-button {
+  background: linear-gradient(#EC7363 2.05%, #EA6290 97.7%);
+  text-decoration: none;
+  width: 134px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  gap: 10px;
+
+}
+
+.nav-bar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
