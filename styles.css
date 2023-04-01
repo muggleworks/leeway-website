@@ -162,6 +162,7 @@
   font-weight: 500;
   font-size: 60px;
 }
+
 .home-section {
   display: flex;
   width: 100%;
@@ -264,6 +265,7 @@
 }
 
 .answer {}
+
 .home-content {
   width: 640px;
   height: 56px;
@@ -295,4 +297,8 @@
 
 .image-mobile {
   flex: 1;
+}
+
+.body {
+  margin: 34px 98px 30px 98px;
 }
