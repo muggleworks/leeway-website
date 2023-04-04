@@ -123,7 +123,7 @@
 }
 
 .mobile {
-  height: 790px;
+  height: 600px
 }
 
 .howitworks-content h2 {
@@ -208,8 +208,12 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 180px;
+  background: linear-gradient(to right, #EA6290 0.05%, #EC7363 31.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .questions {}
@@ -301,22 +305,13 @@
   height: 56px;
   font-family: 'Rubik';
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.works {
-  width: 334px;
-  height: 31px;
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 .image-property {
-  height: 550px;
-  margin-top: 120px;
+  height: 600px;
+  margin-top: 70px;
   margin-bottom: 100px;
 }
 
@@ -337,5 +332,7 @@
 }
 
 .home-content {
-  margin-top: -150px;
+  margin-top: -220px;
+  margin-bottom: 110px;
+  padding-right: 200px;
 }
