@@ -287,8 +287,6 @@
   align-items: center;
 }
 
-.answer {}
-
 .home-content {
   width: 640px;
   height: 56px;
@@ -324,4 +322,10 @@
   margin-top: -220px;
   margin-bottom: 110px;
   padding-right: 200px;
+}
+
+.answer {}
+
+.answer.hidden {
+  display: none;
 }

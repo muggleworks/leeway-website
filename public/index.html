@@ -13,6 +13,8 @@
 </head>
 
 <body>
+  <script src="app.js" type="text/javascript"></script>
+
   <section class="body">
     <div class="header-bar">
       <img src="images/icon.svg" class="icon">
@@ -71,22 +73,52 @@
       <div>
         <p class="faq-head">faq’s</p>
         <div class="questions">
-          <div class="question1">
+          <div onclick="expand('Q1')" class="question1">
             <button><img src="images/minus.svg"></button>
             Are the insights accurate?
-          </div><br>
-          <div class="question2">
+          </div>
+          <br>
+          <p id="Q1" class="answer hidden">
+            Yes, the insights provided by our vehicle expense tracker are accurate. Our advanced data processing<br>
+            algorithms analyze the information you provide, such as fuel expenses and mileage, to generate these<br>
+            insights. It's worth noting that the accuracy of the insights improves as you input more data into the<br>
+            system. Therefore, we recommend inputting your vehicle's expenses regularly and ensuring the <br>information
+            isaccurate and up-to-date to obtain the most precise insights possible.
+          </p>
+          <div onclick="expand('Q2')" class="question2">
             <button><img src="images/Union.svg"></button>
             Is it possible to track expenses for multiple vehicles?
           </div><br>
-          <div class="question3">
+
+
+          <p id="Q2" class="answer hidden">
+            At the moment, tracking expenses for multiple vehicles is not available, but we are constantly <br>
+            improving our product and adding new features to meet our users' needs. We are happy to inform you <br>
+            that the ability to track expenses for multiple vehicles is coming soon. Please stay tuned for updates<br>
+            and feel free to reach out to us if you have any further questions or feedback.</p>
+
+
+          <div onclick="expand('Q3')" class="question3">
             <button><img src="images/Union.svg"></button>
             Is it necessary to create an account to use the app?
           </div><br>
-          <div class="question4">
+          <p id="Q3" class="answer hidden">
+            Currently, to use our app, you need to create an account using either your Google or Apple sign-in<br>
+            credentials. However, we are continuously improving our product and working on a new version that<br> will
+            allow users to use the app without the need for an account. We understand that this is an <br>important
+            feature
+            for some of our users, and we're committed to making it happen. Stay tuned for<br> updates on the new
+            version,and feel free to contact us if you have any further questions or feedback.
+          </p>
+
+          <div onclick="expand('Q4')" class="question4">
             <button><img src="images/Union.svg"></button>
             Is my data stored securely with encryption?
           </div>
+          <p id="Q4" class="answer hidden">At the moment, we don't have encryption for the stored data. However, we take
+            data security and <br>privacy very seriously, and we're actively working on adding encryption to our
+            platform in the near <br> future. We want to ensure that all our users' data is protected and secure.</p>
+
         </div>
       </div>
     </section>
