@@ -123,7 +123,8 @@
 }
 
 .mobile {
-  height: 600px
+  height: 600px;
+  margin-bottom: 120px;
 }
 
 .howitworks-content h2 {
@@ -133,24 +134,13 @@
   font-size: 50px;
   color: #000000;
   height: 80px;
+  margin-bottom: 32px;
 }
 
 .howitworks-content p {
-  width: 500px;
-  font-size: 14px;
-}
-
-.getleeway {
-  background: linear-gradient(#EC7363 2.05%, #EA6290 97.7%);
-  text-decoration: none;
-  width: 134px;
-  height: 41px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  color: #FFFFFF;
-  border-radius: 10px;
+  width: 506px;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .image-section {
@@ -161,6 +151,7 @@
 
 .howitworks-content {
   flex: 1;
+  margin-top: -120px;
 }
 
 .faq {
@@ -179,7 +170,7 @@
 }
 
 .faq-head {
-  font-family: 'Poppins';
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -194,7 +185,7 @@
   justify-content: center;
   align-items: start;
   margin-top: 35px;
-  margin-bottom: 30px;
+  margin-bottom: -220px;
   font-family: 'Rubik';
   font-style: normal;
   background-image: url(images/rect.svg);
@@ -215,8 +206,6 @@
   -webkit-text-fill-color: transparent;
 
 }
-
-.questions {}
 
 .question1 {
   display: flex;
