@@ -328,6 +328,7 @@
   font-family: 'rubik';
   line-height: 28px;
   padding-left: 60px;
+  font-size: 14px;
 }
 
 .answer.hidden {
