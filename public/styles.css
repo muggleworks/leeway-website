@@ -324,7 +324,11 @@
   padding-right: 200px;
 }
 
-.answer {}
+.answer {
+  font-family: 'rubik';
+  line-height: 28px;
+  padding-left: 60px;
+}
 
 .answer.hidden {
   display: none;
