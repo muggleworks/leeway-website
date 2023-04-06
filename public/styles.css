@@ -56,7 +56,8 @@
 
 .download-button:hover {
   opacity: 0.6;
-  transition: opacity 1s;
+  transition: opacity 0.3s;
+  transform: scale(1.1);
 }
 
 .download-button p {
@@ -90,7 +91,7 @@
 
 .nav-button:hover {
   opacity: 0.6;
-  transition: opacity 1s;
+  transform: scale(1.1);
 }
 
 .leeway-button {
@@ -109,7 +110,8 @@
 
 .leeway-button:hover {
   opacity: 0.6;
-  transition: opacity 1s;
+  transition: opacity 0.3s;
+  transform: scale(1.1);
 }
 
 .nav-bar {
@@ -232,7 +234,7 @@
 
 .question:hover {
   opacity: 0.6;
-  transition: opacity 1s;
+  transition: opacity 0.3s;
 }
 
 
@@ -280,6 +282,8 @@
   margin: 0 auto;
   padding-top: 34px;
   padding-bottom: 30px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .home-content {
