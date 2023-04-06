@@ -287,8 +287,6 @@
   align-items: center;
 }
 
-.answer {}
-
 .home-content {
   width: 640px;
   height: 56px;
@@ -324,4 +322,15 @@
   margin-top: -220px;
   margin-bottom: 110px;
   padding-right: 200px;
+}
+
+.answer {
+  font-family: 'rubik';
+  line-height: 28px;
+  padding-left: 60px;
+  font-size: 14px;
+}
+
+.answer.hidden {
+  display: none;
 }
