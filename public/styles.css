@@ -1,33 +1,32 @@
 .footer {
-  background-color: #FEF6F4;
+  background-color: #fef6f4;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   height: 70px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-size: 14px;
 }
 
 .download-section {
-  background-color: #DA6B90;
+  background-color: #da6b90;
   height: 201px;
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   margin-bottom: 30px;
   background-image: url(images/design.svg);
   background-position: top;
-
 }
 
 .download-content {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 30px;
   display: flex;
   align-items: center;
@@ -41,7 +40,7 @@
 }
 
 .download-button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   display: block;
   color: #000000;
@@ -71,7 +70,7 @@
 .header-bar {
   display: flex;
   justify-content: space-between;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
 }
 
@@ -84,7 +83,7 @@
 }
 
 .leeway-button {
-  background: linear-gradient(#EC7363 2.05%, #EA6290 97.7%);
+  background: linear-gradient(#ec7363 2.05%, #ea6290 97.7%);
   text-decoration: none;
   width: 134px;
   height: 41px;
@@ -92,10 +91,9 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 10px;
   gap: 10px;
-
 }
 
 .nav-bar {
@@ -114,7 +112,7 @@
   background-color: white;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   background-image: url(images/design3.svg);
   background-repeat: no-repeat;
@@ -157,7 +155,7 @@
 .faq {
   width: 100%;
   height: 774px;
-  background-color: #FEF6F4;
+  background-color: #fef6f4;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -166,11 +164,10 @@
   background-image: url(images/design2.svg);
   background-repeat: no-repeat;
   background-position: left;
-
 }
 
 .faq-head {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -186,7 +183,7 @@
   align-items: start;
   margin-top: 35px;
   margin-bottom: -220px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   background-image: url(images/rect.svg);
   background-repeat: no-repeat;
@@ -196,21 +193,20 @@
 .home-head {
   width: 640px;
   height: 240px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   margin-top: 180px;
-  background: linear-gradient(to right, #EA6290 0.05%, #EC7363 31.84%);
+  background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 .question1 {
   display: flex;
   gap: 40px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -219,7 +215,7 @@
 .question1 button {
   width: 24px;
   height: 24px;
-  background-color: #DB727D;
+  background-color: #db727d;
   border-radius: 24px;
   border: none;
   display: flex;
@@ -230,7 +226,7 @@
 .question2 {
   display: flex;
   gap: 40px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -239,7 +235,7 @@
 .question2 button {
   width: 24px;
   height: 24px;
-  background-color: #DB727D;
+  background-color: #db727d;
   border-radius: 24px;
   border: none;
   display: flex;
@@ -250,7 +246,7 @@
 .question3 {
   display: flex;
   gap: 40px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -259,7 +255,7 @@
 .question3 button {
   width: 24px;
   height: 24px;
-  background-color: #DB727D;
+  background-color: #db727d;
   border-radius: 24px;
   border: none;
   display: flex;
@@ -270,7 +266,7 @@
 .question4 {
   display: flex;
   gap: 40px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -279,7 +275,7 @@
 .question4 button {
   width: 24px;
   height: 24px;
-  background-color: #DB727D;
+  background-color: #db727d;
   border-radius: 24px;
   border: none;
   display: flex;
@@ -290,7 +286,7 @@
 .home-content {
   width: 640px;
   height: 56px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -325,7 +321,7 @@
 }
 
 .answer {
-  font-family: 'rubik';
+  font-family: "rubik";
   line-height: 28px;
   padding-left: 60px;
   font-size: 14px;
@@ -333,4 +329,33 @@
 
 .answer.hidden {
   display: none;
+}
+
+.t-and-c-container {
+  max-width: 880px;
+  box-sizing: border-box;
+  padding: 100px 40px;
+  margin: 0 auto;
+  font-family: Rubik, sans;
+}
+
+.t-and-c-container * {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.t-and-c-container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.t-and-c-container p {
+  margin: 0;
+}
+
+.t-and-c-container h6 {
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 8px;
 }
