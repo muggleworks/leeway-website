@@ -55,8 +55,7 @@
 }
 
 .download-button:hover {
-  opacity: 0.6;
-  transition: opacity 0.3s;
+  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -90,7 +89,7 @@
 }
 
 .nav-button:hover {
-  opacity: 0.6;
+  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -109,8 +108,7 @@
 }
 
 .leeway-button:hover {
-  opacity: 0.6;
-  transition: opacity 0.3s;
+  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -234,7 +232,7 @@
 
 .question:hover {
   opacity: 0.6;
-  transition: opacity 0.3s;
+  transition-duration: 0.3s;
 }
 
 
