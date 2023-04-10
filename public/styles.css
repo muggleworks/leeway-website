@@ -52,10 +52,10 @@
   align-items: center;
   padding: 8px 24px;
   gap: 20px;
+  transition-duration: 0.3s;
 }
 
 .download-button:hover {
-  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -86,10 +86,10 @@
   font-size: 18px;
   color: #000000;
   font-weight: 500;
+  transition-duration: 0.3s;
 }
 
 .nav-button:hover {
-  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -105,10 +105,10 @@
   color: #FFFFFF;
   border-radius: 10px;
   gap: 10px;
+  transition-duration: 0.3s;
 }
 
 .leeway-button:hover {
-  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
