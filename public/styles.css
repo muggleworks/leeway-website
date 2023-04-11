@@ -339,3 +339,49 @@
   padding-left: 48px;
   padding-right: 48px;
 }
+
+@media screen and (max-width: 600px) {
+  .download-section {
+    width: 350px;
+    height: 140px;
+    display: block;
+    padding-left: 16.29px;
+    padding-right: 16.29px;
+    padding-top: 3px;
+  }
+
+  .download-content {
+    display: block;
+  }
+
+  .download-content p {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .download-button p {
+    font-size: 8.7px;
+  }
+
+  .download-button p:nth-child(2) {
+    font-size: 13.92px;
+  }
+
+  .icon {
+    width: 20.8px;
+    height: 23.2px;
+  }
+
+  .download-button {
+    width: 151.6px;
+    height: 48.69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 6px;
+  }
+
+}
