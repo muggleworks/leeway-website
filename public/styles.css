@@ -342,16 +342,22 @@
 
 @media screen and (max-width: 600px) {
   .download-section {
-    width: 350px;
-    height: 140px;
+    width: 100%;
     display: block;
-    padding-left: 16.29px;
-    padding-right: 16.29px;
-    padding-top: 3px;
+    padding-top: 14px;
   }
 
   .download-content {
     display: block;
+    padding-top: 14px;
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
   }
 
   .download-content p {
@@ -359,7 +365,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .download-button p {
