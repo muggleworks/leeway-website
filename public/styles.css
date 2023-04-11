@@ -339,3 +339,54 @@
   padding-left: 48px;
   padding-right: 48px;
 }
+
+@media screen and (max-width: 600px) {
+  .download-section {
+    width: 100%;
+    display: block;
+    padding-top: 14px;
+  }
+
+  .download-content {
+    display: block;
+    padding-top: 14px;
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+  }
+
+  .download-content p {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-button p {
+    font-size: 8px;
+  }
+
+  .download-button p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 23px;
+  }
+
+  .download-button {
+    width: 152px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 6px;
+  }
+
+}
