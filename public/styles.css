@@ -389,4 +389,32 @@
     padding: 3px 6px;
   }
 
+  .howitworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .howitworks-content h2 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .howitworks-content p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile {
+    height: 350px;
+    padding-bottom: 100px;
+  }
+
+
 }
