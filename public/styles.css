@@ -417,5 +417,37 @@
     padding-bottom: 100px;
   }
 
+  .home-section {
+    width: 100%;
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .home-content {
+    font-size: 20px;
+    line-height: 28px;
+
+  }
+
+  .home-head {
+    display: none;
+  }
+
+  .image-property {
+    height: 390px;
+  }
+
+  .home {
+    display: flex;
+  }
+
+  .image-mobile {
+    padding-bottom: 250px;
+  }
+
 
 }
