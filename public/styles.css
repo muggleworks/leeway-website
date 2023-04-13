@@ -421,8 +421,11 @@
 
   .home-section {
     width: 100%;
+    background-image: url(images/rect.svg);
     background-size: 200%;
     display: block;
+    border-radius: 30px;
+    height: auto;
   }
 
   .home-content {
@@ -431,6 +434,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: -150px;
+    padding-left: 80px;
 
   }
 
@@ -440,6 +446,7 @@
 
   .image-property {
     height: 300px;
+    margin-top: -230px;
   }
 
   .home {
@@ -455,6 +462,7 @@
 
   .download-buttons {
     padding-right: 100px;
+    margin-top: -50px;
   }
 
 
