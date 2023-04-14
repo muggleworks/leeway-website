@@ -72,6 +72,12 @@
   height: 80px;
 }
 
+.menu {
+  width: 18px;
+  height: 12px;
+  display: none;
+}
+
 .header-bar {
   display: flex;
   justify-content: space-between;
@@ -89,25 +95,6 @@
 }
 
 .nav-button:hover {
-  transform: scale(1.1);
-}
-
-.leeway-button {
-  background: linear-gradient(#ec7363 2.05%, #ea6290 97.7%);
-  text-decoration: none;
-  width: 134px;
-  height: 41px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  color: #ffffff;
-  border-radius: 10px;
-  gap: 10px;
-  transition-duration: 0.3s;
-}
-
-.leeway-button:hover {
   transform: scale(1.1);
 }
 
