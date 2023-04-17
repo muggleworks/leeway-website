@@ -8,3 +8,14 @@ function expand(id) {
     lastId = id;
 
 }
+function menuIconClick() {
+    const x = document.getElementById('menuID');
+    menuID.style.display = "block";
+
+}
+function closeButton() {
+    const y = document.getElementById('menuID');
+    menuID.style.display = 'none'
+}
+
+
