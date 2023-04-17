@@ -388,7 +388,7 @@
   font-family: 'rubik';
 }
 
-.x {
+.closeMenu {
   cursor: pointer;
   background-color: transparent;
   border-color: transparent;
@@ -397,6 +397,10 @@
 
 .x:hover {
   transform: scale(1.2);
+}
+
+.html {
+  scroll-behavior: smooth;
 }
 
 
