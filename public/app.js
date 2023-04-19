@@ -1,18 +1,26 @@
 let lastId = null;
-function expand(id, id1) {
+let lastId1 = null;
+function expand(ElementId, ElementId1) {
 
-    var imgElement = document.getElementById(id1);
+    let imgElement = document.getElementById(ElementId1);
     imageSrc = imgElement.src;
     imageSrc = imageSrc.split("/").pop();
-    imageSrc = (imageSrc === "minus.svg") ? "images/Union.svg" : "images/minus.svg";
+    imageSrc = (imageSrc === "minus.svg") ? "images/add.svg" : "images/minus.svg";
     imgElement.src = imageSrc;
 
-    if (lastId && lastId != id) {
+    if (lastId && lastId != ElementId) {
         document.getElementById(lastId).classList.add("hidden");
+
     }
-    const content = document.getElementById(id);
+    if (lastId1 && lastId1 != ElementId1) {
+        document.getElementById(lastId1).src = "images/add.svg";
+    }
+
+
+    const content = document.getElementById(ElementId);
     content.classList.toggle("hidden");
-    lastId = id;
+    lastId = ElementId;
+    lastId1 = ElementId1;
 
 }
 
