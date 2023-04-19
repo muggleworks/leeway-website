@@ -1,11 +1,11 @@
-let last = null;
-function expand(question) {
-    if (last && last != question) {
-        document.getElementById(last).classList.add("hidden");
+let lastId = null;
+function expand(ElementId) {
+    if (lastId && lastId != ElementId) {
+        document.getElementById(lastId).classList.add("hidden");
     }
-    const content = document.getElementById(question);
+    const content = document.getElementById(ElementId);
     content.classList.toggle("hidden");
-    last = question;
+    lastId = ElementId;
 
 }
 function menuIconClick() {
