@@ -1,10 +1,24 @@
 let lastId = null;
-function expand(id) {
-    if (lastId && lastId != id) {
+let lastIconId = null;
+function expand(elementId) {
+    let imgElement = document.getElementById(`${elementId}-icon`);
+    let iconId = `${elementId}-icon`;
+    imageSrc = imgElement.src;
+    imageSrc = imageSrc.split("/").pop();
+    imageSrc = (imageSrc === "minus.svg") ? "images/add.svg" : "images/minus.svg";
+    imgElement.src = imageSrc;
+
+    if (lastId && lastId != elementId) {
         document.getElementById(lastId).classList.add("hidden");
     }
-    const content = document.getElementById(id);
+    if (lastIconId && lastIconId != iconId) {
+        document.getElementById(lastIconId).src = "images/add.svg";
+    }
+    const content = document.getElementById(elementId);
     content.classList.toggle("hidden");
-    lastId = id;
+    lastId = elementId;
+    lastIconId = iconId;
 
 }
+
+
