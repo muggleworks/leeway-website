@@ -1,11 +1,23 @@
 let lastId = null;
-function expand(ElementId) {
-    if (lastId && lastId != ElementId) {
+let lastIconId = null;
+function expand(elementId) {
+    let imgElement = document.getElementById(`${elementId}-icon`);
+    let iconId = `${elementId}-icon`;
+    imageSrc = imgElement.src;
+    imageSrc = imageSrc.split("/").pop();
+    imageSrc = (imageSrc === "minus.svg") ? "images/add.svg" : "images/minus.svg";
+    imgElement.src = imageSrc;
+
+    if (lastId && lastId != elementId) {
         document.getElementById(lastId).classList.add("hidden");
     }
-    const content = document.getElementById(ElementId);
+    if (lastIconId && lastIconId != iconId) {
+        document.getElementById(lastIconId).src = "images/add.svg";
+    }
+    const content = document.getElementById(elementId);
     content.classList.toggle("hidden");
-    lastId = ElementId;
+    lastId = elementId;
+    lastIconId = iconId;
 
 }
 function menuIconClick() {
@@ -17,6 +29,5 @@ function closeButton() {
     const menuClose = document.getElementById('menuId');
     menuId.style.display = 'none';
 }
-
 
 
