@@ -13,6 +13,7 @@
 
 .download-section {
   background-color: #da6b90;
+  width: 100%;
   height: 201px;
   border-radius: 20px;
   display: flex;
@@ -31,6 +32,9 @@
   display: flex;
   align-items: center;
   gap: 180px;
+  width: 100%;
+  justify-content: center;
+
 }
 
 .download-buttons {
@@ -83,6 +87,7 @@
   justify-content: space-between;
   font-family: "Rubik";
   font-style: normal;
+  padding-bottom: 20px;
 }
 
 .nav-button {
@@ -176,12 +181,9 @@
 
 .home-section {
   display: flex;
-  width: 100%;
-  height: 960px;
   border-radius: 51px;
   background-color: white;
-  justify-content: center;
-  margin-top: 35px;
+  justify-content: space-around;
   font-family: "Rubik";
   font-style: normal;
   background-image: url(images/rect.svg);
@@ -190,13 +192,10 @@
 }
 
 .home-head {
-  width: 640px;
-  height: 240px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  margin-top: 350px;
   background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -232,7 +231,6 @@
 
 .home-content {
   width: 640px;
-  height: 56px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
@@ -242,28 +240,21 @@
 }
 
 .image-property {
-  height: 600px;
-  margin-top: 70px;
-  margin-bottom: 100px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding-top: 50px;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex: 1;
-  height: 440px;
-  padding-left: 107px;
-}
+.home {}
 
 .image-mobile {
-  flex: 1;
   display: flex;
-  padding-top: 69px;
 }
 
 .body {
   max-width: 1300px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 34px;
   padding-bottom: 30px;
@@ -271,10 +262,6 @@
   padding-right: 48px;
 }
 
-.home-content {
-  margin-bottom: 80px;
-  padding-right: 200px;
-}
 
 .answer {
   font-family: "rubik";
@@ -411,21 +398,21 @@
     width: 100%;
     background-image: url(images/rect.svg);
     background-size: 200%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-radius: 30px;
-    height: auto;
+    padding-bottom: 100px;
   }
 
   .home-content {
     font-size: 20px;
     line-height: 28px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -150px;
-    padding-left: 170px;
-
+    width: 320px;
   }
 
   .home-head {
@@ -433,14 +420,14 @@
   }
 
   .image-property {
-    height: 300px;
-    margin-top: -230px;
+    width: 100%;
+    max-width: 200px;
   }
 
   .home {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: -100px;
   }
 
   .image-mobile {
@@ -456,6 +443,55 @@
   .menu {
     display: block;
   }
+
+  .faq {
+    width: 100%;
+    background-color: #fef6f4;
+    border-radius: 20px;
+    background-image: url(images/design2.svg);
+    background-repeat: no-repeat;
+  }
+
+
+  .faq-head {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .question {
+    gap: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .question:hover {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+  }
+
+  .faq-section {
+    width: 100%;
+
+
+
+  }
+
+  .answer {
+    font-family: "rubik";
+    line-height: 28px;
+    font-size: 14px;
+    padding-left: 40px;
+  }
+
+
 
 
 
