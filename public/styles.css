@@ -316,6 +316,7 @@
   padding-right: 48px;
 }
 
+
 @media screen and (max-width: 600px) {
   .download-section {
     width: 100%;
@@ -479,9 +480,10 @@
 
   .faq-section {
     width: 100%;
-
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .answer {
@@ -489,6 +491,10 @@
     line-height: 28px;
     font-size: 14px;
     padding-left: 40px;
+  }
+
+  .questions {
+    width: 330px;
   }
 
 
