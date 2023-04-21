@@ -22,12 +22,12 @@ function expand(elementId) {
 }
 function menuIconClick() {
     const menuClick = document.getElementById('menuId');
-    menuId.style.display = "block";
+    menuClick.style.display = "block";
 
 }
 function closeButton() {
     const menuClose = document.getElementById('menuId');
-    menuId.style.display = 'none';
+    menuClose.style.display = 'none';
 }
 
 
