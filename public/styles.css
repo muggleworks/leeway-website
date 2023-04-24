@@ -413,7 +413,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 320px;
+    width: 100%;
   }
 
   .home-head {
@@ -494,14 +494,10 @@
   }
 
   .questions {
-    width: 330px;
+    width: 100%;
   }
 
 
-
-
-
-
-
-
 }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {}
