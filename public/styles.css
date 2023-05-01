@@ -33,6 +33,7 @@
   align-items: center;
   gap: 180px;
   justify-content: center;
+  width: 501px;
 
 }
 
@@ -113,7 +114,6 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 900px;
   border-radius: 20px;
   background-color: white;
   margin-top: 30px;
@@ -150,8 +150,6 @@
   display: flex;
   justify-content: center;
 }
-
-.howitworks-content {}
 
 .faq {
   width: 100%;
@@ -235,26 +233,26 @@
 
 .image-property {
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   height: auto;
   padding-top: 50px;
 
 }
 
-.home {}
+.home {
+  height: 100vh;
+}
 
 .image-mobile {
   display: flex;
 }
 
 .body {
+  box-sizing: border-box;
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 12px 12px 10px 10px;
 }
 
 
@@ -313,18 +311,18 @@
 
 
 @media screen and (max-width: 600px) {
+
   .download-section {
     width: 100%;
-    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
 
   .download-content {
-    display: block;
     justify-content: center;
-    margin-top: -40px;
+    width: 300px;
+
   }
 
   .download-buttons {
@@ -358,7 +356,6 @@
   .download-button {
     width: 130px;
     height: 49px;
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 3px 6px;
@@ -366,13 +363,12 @@
 
   .howitworks {
     width: 100%;
-    display: flex;
     flex-direction: column-reverse;
+    gap: 50px;
   }
 
   .howitworks-content h2 {
     font-size: 24px;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -395,21 +391,18 @@
     width: 100%;
     background-image: url(images/rect.svg);
     background-size: 200%;
-    display: flex;
     flex-direction: column;
     border-radius: 30px;
-    padding-bottom: 100px;
   }
 
   .home-content {
     font-size: 20px;
     line-height: 28px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 300px;
   }
 
   .home-head {
@@ -425,10 +418,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
   }
 
   .image-mobile {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -443,7 +436,6 @@
 
   .faq {
     width: 100%;
-    background-color: #fef6f4;
     border-radius: 20px;
     background-image: url(images/design2.svg);
     background-repeat: no-repeat;
@@ -451,9 +443,6 @@
 
 
   .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
     font-size: 28px;
     display: flex;
     align-items: center;
@@ -462,16 +451,8 @@
 
   .question {
     gap: 14px;
-    font-family: "Rubik";
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    cursor: pointer;
-  }
-
-  .question:hover {
-    opacity: 0.6;
-    transition-duration: 0.3s;
   }
 
   .faq-section {
@@ -483,26 +464,22 @@
   }
 
   .answer {
-    font-family: "rubik";
     line-height: 28px;
     font-size: 14px;
     padding-left: 40px;
   }
 
   .questions {
-    width: 330px;
+    width: 310px;
   }
 
 }
 
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+@media (max-width: 914px) and (min-width: 601px) {
 
   .mobile {
-    height: 400px;
-
+    height: 300px;
   }
-
-
 
   .image-section {
     display: flex;
@@ -526,13 +503,125 @@
   }
 
   .home-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
     font-size: 50px;
-    background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  }
+
+  .home-content {
+    width: 400px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .download-button {
+    border-radius: 10px;
+    display: block;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 20px;
+  }
+
+  .download-button p {
+    font-size: 10px;
+  }
+
+  .download-button p:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 110px;
+    height: 60px;
+
+  }
+
+  .download-content {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .faq {
+    width: 100%;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .howitworks-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 35px;
+  }
+
+  .howitworks-content p {
+    font-size: 14px;
+    line-height: 30px;
+    width: 400px;
+  }
+
+  .faq-head {
+    font-weight: 500;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .download-buttons {
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .download-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 1340px) and (min-width: 915px) {
+  .download-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .download-buttons {
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .download-section {
+    height: 250px;
+  }
+
+  .download-content {
+    width: 100%;
+  }
+
+  .mobile {
+    height: 450px;
+  }
+
+  .image-property {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    padding-top: 50px;
   }
 
   .home-content {
@@ -540,652 +629,37 @@
     font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     align-items: center;
   }
 
   .download-button {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
-    color: #000000;
-    text-decoration: none;
-    width: 140px;
+    width: 160px;
     height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 20px;
-    transition-duration: 0.3s;
   }
 
-  .download-button p {
-    font-size: 10px;
+  .download-buttons {
+    gap: 40px;
   }
 
-  .download-button p:nth-child(2) {
-    font-size: 15px;
-  }
-
-  .icon {
-    width: 110px;
-    height: 60px;
-
-  }
-
-  .download-content {
-    color: #ffffff;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    justify-content: center;
-  }
-
-  .faq {
-    width: 100%;
-    padding-bottom: 80px;
-    background-color: #fef6f4;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/design2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    justify-content: center;
-  }
-
-  .howitworks-content h2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 40px;
-    color: #000000;
-
-  }
-
-  .howitworks-content p {
-    width: 480px;
-    font-size: 14px;
-    line-height: 30px
-  }
-
-  .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
+  .home-head {
     font-size: 50px;
   }
 
-
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-
-
-  .mobile {
-    height: 300px;
-
-  }
-
-  .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .howitworks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .image-property {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    padding-top: 25px;
-  }
-
-  .home-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .home-content {
-    width: 300px;
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-  }
-
-  .download-button {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
-    color: #000000;
-    text-decoration: none;
-    width: 130px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 10px;
-    transition-duration: 0.3s;
-  }
-
-  .download-button p {
-    font-size: 10px;
-  }
-
-  .download-button p:nth-child(2) {
-    font-size: 15px;
-  }
-
-  .icon {
-    width: 110px;
-    height: 60px;
-
-  }
-
-  .download-content {
-    color: #ffffff;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    justify-content: center;
-  }
-
-  .faq {
-    width: 100%;
-    padding-bottom: 80px;
-    background-color: #fef6f4;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/design2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    justify-content: center;
-  }
-
   .howitworks-content h2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 30px;
-    color: #000000;
-
-  }
-
-  .howitworks-content p {
-    width: 350px;
-    font-size: 12px;
-    line-height: 25px;
-  }
-
-  .download-buttons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    justify-content: center;
+    font-size: 35px;
   }
 
   .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-  }
-
-  .download-content p {
-    font-size: 18px;
-  }
-
-  .download-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-
-}
-
-@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
-
-
-  .mobile {
-    height: 300px;
-
-  }
-
-  .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .howitworks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .image-property {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    padding-top: 25px;
-  }
-
-  .home-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
     font-size: 40px;
-    background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .home-content {
-    width: 300px;
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-  }
-
-  .download-button {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
-    color: #000000;
-    text-decoration: none;
-    width: 130px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 10px;
-    transition-duration: 0.3s;
-  }
-
-  .download-button p {
-    font-size: 10px;
-  }
-
-  .download-button p:nth-child(2) {
-    font-size: 15px;
-  }
-
-  .icon {
-    width: 110px;
-    height: 60px;
-
   }
 
   .download-content {
-    color: #ffffff;
     font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    justify-content: center;
   }
 
-  .faq {
-    width: 100%;
-    padding-bottom: 80px;
-    background-color: #fef6f4;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/design2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    justify-content: center;
+  .home {
+    height: 78vh;
   }
-
-  .howitworks-content h2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 30px;
-    color: #000000;
-
-  }
-
-  .howitworks-content p {
-    width: 350px;
-    font-size: 12px;
-    line-height: 25px;
-  }
-
-  .download-buttons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    justify-content: center;
-  }
-
-  .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-  }
-
-  .download-content p {
-    font-size: 18px;
-  }
-
-  .download-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-
-
-  .mobile {
-    height: 300px;
-
-  }
-
-  .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .howitworks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .image-property {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    padding-top: 25px;
-  }
-
-  .home-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .home-content {
-    width: 300px;
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-  }
-
-  .download-button {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
-    color: #000000;
-    text-decoration: none;
-    width: 130px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 10px;
-    transition-duration: 0.3s;
-  }
-
-  .download-button p {
-    font-size: 10px;
-  }
-
-  .download-button p:nth-child(2) {
-    font-size: 15px;
-  }
-
-  .icon {
-    width: 110px;
-    height: 60px;
-
-  }
-
-  .download-content {
-    color: #ffffff;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    justify-content: center;
-  }
-
-  .faq {
-    width: 100%;
-    padding-bottom: 80px;
-    background-color: #fef6f4;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/design2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    justify-content: center;
-  }
-
-  .howitworks-content h2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 30px;
-    color: #000000;
-
-  }
-
-  .howitworks-content p {
-    width: 350px;
-    font-size: 12px;
-    line-height: 25px;
-  }
-
-  .download-buttons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    justify-content: center;
-  }
-
-  .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-  }
-
-  .download-content p {
-    font-size: 18px;
-  }
-
-  .download-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-
-}
-
-@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
-
-
-  .mobile {
-    height: 300px;
-
-  }
-
-  .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .howitworks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .image-property {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    padding-top: 25px;
-  }
-
-  .home-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .home-content {
-    width: 300px;
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-  }
-
-  .download-button {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
-    color: #000000;
-    text-decoration: none;
-    width: 130px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 10px;
-    transition-duration: 0.3s;
-  }
-
-  .download-button p {
-    font-size: 10px;
-  }
-
-  .download-button p:nth-child(2) {
-    font-size: 15px;
-  }
-
-  .icon {
-    width: 110px;
-    height: 60px;
-
-  }
-
-  .download-content {
-    color: #ffffff;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    justify-content: center;
-  }
-
-  .faq {
-    width: 100%;
-    padding-bottom: 80px;
-    background-color: #fef6f4;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/design2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    justify-content: center;
-  }
-
-  .howitworks-content h2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 30px;
-    color: #000000;
-
-  }
-
-  .howitworks-content p {
-    width: 350px;
-    font-size: 12px;
-    line-height: 25px;
-  }
-
-  .download-buttons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    justify-content: center;
-  }
-
-  .faq-head {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-  }
-
-  .download-content p {
-    font-size: 18px;
-  }
-
-  .download-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-
 }
