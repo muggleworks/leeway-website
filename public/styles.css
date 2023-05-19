@@ -467,6 +467,7 @@ html {
     background-size: 200%;
     flex-direction: column;
     border-radius: 30px;
+    padding-top: 40px;
   }
 
   .home-content {
