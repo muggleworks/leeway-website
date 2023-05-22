@@ -166,9 +166,6 @@
   background-repeat: no-repeat;
   background-position: left;
 }
-.questions{
-  line-height: 29px;
-}
 
 .faq-head {
   font-family: "Rubik";
@@ -549,7 +546,7 @@ html {
 
   .questions {
     width: 310px;
-    line-height:10px;
+    line-height:20px;
   }
 
 }
