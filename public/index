@@ -116,15 +116,11 @@
             <button><img src="images/add.svg" id="Q2-icon"></button>
             Is it possible to track expenses for multiple vehicles?
           </div><br>
-
-
           <p id="Q2" class="answer hidden">
             At the moment, tracking expenses for multiple vehicles is not available, but we are constantly
             improving our product and adding new features to meet our users' needs. We are happy to inform you
             that the ability to track expenses for multiple vehicles is coming soon. Please stay tuned for updates
             and feel free to reach out to us if you have any further questions or feedback.</p>
-
-
           <div onclick="expand('Q3')" class="question">
             <button><img src="images/add.svg" id="Q3-icon"></button>
             Is it necessary to create an account to use the app?
@@ -136,7 +132,6 @@
             feature for some of our users, and we're committed to making it happen. Stay tuned for updates on the new
             version,and feel free to contact us if you have any further questions or feedback.
           </p>
-
           <div onclick="expand('Q4' )" class="question">
             <button><img src="images/add.svg" id="Q4-icon"></button>
             Is my data stored securely with encryption?

@@ -198,6 +198,7 @@
 
 .question {
   display: flex;
+
   gap: 40px;
   font-family: "Rubik";
   font-style: normal;
@@ -210,7 +211,6 @@
   opacity: 0.6;
   transition-duration: 0.3s;
 }
-
 
 .question button {
   width: 24px;
@@ -310,8 +310,6 @@
   padding-left: 48px;
   padding-right: 48px;
 }
-
-
 
 .nav-menu {
   width: 100%;
