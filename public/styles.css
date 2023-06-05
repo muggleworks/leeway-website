@@ -9,6 +9,7 @@
   font-family: "Rubik";
   font-style: normal;
   font-size: 14px;
+  color: #03030F;
 }
 
 .download-section {
@@ -74,6 +75,7 @@
 .icon {
   width: 130px;
   height: 80px;
+  
 }
 
 .menu {
@@ -97,7 +99,7 @@
   display: flex;
   text-decoration: none;
   font-size: 18px;
-  color: #000000;
+  color: #03030F;
   font-weight: 500;
   transition-duration: 0.3s;
 }
@@ -138,7 +140,7 @@
   align-items: center;
   justify-content: flex-start;
   font-size: 50px;
-  color: #000000;
+  color: #03030F;
   height: 80px;
   margin-bottom: 32px;
 }
@@ -147,6 +149,7 @@
   width: 506px;
   font-size: 16px;
   line-height: 32px;
+  color:#03030F ;
 }
 
 .image-section {
@@ -165,6 +168,7 @@
   background-image: url(images/design2.svg);
   background-repeat: no-repeat;
   background-position: left;
+  color: #03030F;
 }
 
 .faq-head {
@@ -172,6 +176,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
+  
 }
 
 .home-section {
@@ -226,6 +231,7 @@
 
 .home-content {
   width: 640px;
+  color:#03030F;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
@@ -254,7 +260,7 @@
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 12px 12px 10px 10px;
+  padding: 12px  10px;
 }
 
 
@@ -280,6 +286,7 @@
   padding: 100px 40px;
   margin: 0 auto;
   font-family: Rubik, sans;
+  color: #03030F;
 }
 
 .t-and-c-container * {
@@ -306,10 +313,7 @@
 .terms-and-conditions {
   max-width: 1300px;
   margin: 0 auto;
-  padding-top: 34px;
-  padding-bottom: 30px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 12px  10px;
 }
 
 
@@ -739,4 +743,11 @@ html {
   .home {
     height: 78vh;
   }
+}
+.secondary{
+
+color: #999999;
+}
+.primary{
+  color: #03030F;
 }
