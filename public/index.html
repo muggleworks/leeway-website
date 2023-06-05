@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Track your vehicle fuel expenses with ease using leeway, the smart expense tracker. Get valuable insights on your mileage and cost per kilometer, and optimize your driving habits for maximum savings. Start saving time and money on your car expenses today.">
+  <title>Leeway - Vehicle expense tracker</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="app.js" type="text/javascript"></script>
+  <div id="menuId" class="nav-menu">
+    <nav class="menu-nav">
+      <a class="menu-option" href="#home1" onclick="closeButton()">home</a>
+      <a class="menu-option" href="#howitworks2" onclick="closeButton()">how it works</a>
+      <a class="menu-option" href="#faq3" onclick="closeButton()">faq</a>
+    </nav>
+    <div class="download-buttons">
+      <a class="download-button" href="#">
+        <img src="images/googleplay.svg">
+        <div>
+          <p>GET IT ON</p>
+          <P>Google play</P>
+        </div>
+      </a>
+      <a class="download-button" href="#">
+        <img src="images/appstore.svg">
+        <div>
+          <p>DOWNLOAD IT ON</p>
+          <P>App Store</P>
+        </div>
+      </a>
+    </div>
+    <div class="close">
+      <button class="closeMenu" onclick="closeButton()"><img src="images/close.svg"></button>
+    </div>
+    <div class="copy">Copyright ©2023 leeway</div>
+
+  </div>
+
+
+  <section class="body">
+    <div class="header-bar">
+      <img src="images/icon.svg" class="icon">
+      <nav class="nav-bar">
+        <a class="nav-button" href="#home1">home</a>
+        <a class="nav-button" href="#howitworks2">how it works</a>
+        <a class="nav-button" href="#faq3">faq</a>
+        <button class="menu" onclick="menuIconClick()"><img src="images/menu.svg"></button>
+      </nav>
+    </div>
+    <section id="home1" class="home-section">
+      <div class="home">
+        <p class="home-head">leeway</p>
+        <p class="home-content">effortlessly track your automobile fuel expenses and gain valuable insights on
+          mileage and cost per kilometer.</p>
+        <div class="download-buttons">
+          <a class="download-button" href="#">
+            <img src="images/googleplay.svg">
+            <div>
+              <p>GET IT ON</p>
+              <P>Google play</P>
+            </div>
+          </a>
+          <a class="download-button" href="#">
+            <img src="images/appstore.svg">
+            <div>
+              <p>DOWNLOAD IT ON</p>
+              <P>App Store</P>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="image-mobile">
+        <img src="images/img1.png" class="image-property">
+      </div>
+    </section>
+    <div id="howitworks2" class="howitworks">
+      <div class="image-section">
+        <img src="images/img2.png" class="mobile">
+      </div>
+      <div class="howitworks-content">
+        <h2>how it works!</h2>
+        <p>Managing your vehicle's fuel expenses has never been easier. Simply add an entry every time you refuel
+          with relevant information, and we'll take care of the rest. Our advanced processing algorithms will analyze
+          the data and provide you with valuable insights on your vehicle's mileage and cost per kilometer. It's a
+          hassle-free solution to keep track of your expenses and optimize your vehicle's performance.</p>
+      </div>
+    </div>
+
+    <section id="faq3" class="faq">
+      <div class="faq-section">
+        <p class="faq-head">faq’s</p>
+        <div class="questions">
+          <div onclick="expand('Q1')" class="question">
+            <button><img src="images/add.svg" id="Q1-icon"></button>
+            Are the insights accurate?
+          </div>
+
+          <p id="Q1" class="answer hidden">
+            Yes, the insights provided by our vehicle expense tracker are accurate. Our advanced data processing
+            algorithms analyze the information you provide, such as fuel expenses and mileage, to generate these
+            insights. It's worth noting that the accuracy of the insights improves as you input more data into the
+            system. Therefore, we recommend inputting your vehicle's expenses regularly and ensuring the information
+            isaccurate and up-to-date to obtain the most precise insights possible.
+          </p>
+          <hr>
+          <div onclick="expand('Q2')" class="question">
+            <button><img src="images/add.svg" id="Q2-icon"></button>
+            Is it possible to track expenses for multiple vehicles?
+          </div>
+
+
+          <p id="Q2" class="answer hidden">
+            At the moment, tracking expenses for multiple vehicles is not available, but we are constantly
+            improving our product and adding new features to meet our users' needs. We are happy to inform you
+            that the ability to track expenses for multiple vehicles is coming soon. Please stay tuned for updates
+            and feel free to reach out to us if you have any further questions or feedback.</p>
+          <hr>
+
+
+          <div onclick="expand('Q3')" class="question">
+            <button><img src="images/add.svg" id="Q3-icon"></button>
+            Is it necessary to create an account to use the app?
+          </div>
+          <p id="Q3" class="answer hidden">
+            Currently, to use our app, you need to create an account using either your Google or Apple sign-in
+            credentials. However, we are continuously improving our product and working on a new version that will
+            allow users to use the app without the need for an account. We understand that this is an important
+            feature for some of our users, and we're committed to making it happen. Stay tuned for updates on the new
+            version,and feel free to contact us if you have any further questions or feedback.
+          </p>
+          <hr>
+
+          <div onclick="expand('Q4' )" class="question">
+            <button><img src="images/add.svg" id="Q4-icon"></button>
+            Is my data stored securely with encryption?
+          </div>
+          <p id="Q4" class="answer hidden">At the moment, we don't have encryption for the stored data. However, we take
+            data security and privacy very seriously, and we're actively working on adding encryption to our
+            platform in the near future. We want to ensure that all our users' data is protected and secure.</p>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section class="download-section">
+      <div class="download-content">
+        <p>Download now and start effortlessly tracking your expenses.</p>
+      </div>
+      <div class="download-buttons">
+        <a class="download-button" href="#">
+          <img src="images/googleplay.svg">
+          <div>
+            <p>GET IT ON</p>
+            <P>Google play</P>
+          </div>
+        </a>
+        <a class="download-button" href="#">
+          <img src="images/appstore.svg">
+          <div>
+            <p>DOWNLOAD IT ON</p>
+            <P>App Store</P>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p>Copyright ©2023 leeway</p>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
