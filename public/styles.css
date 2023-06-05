@@ -175,8 +175,8 @@
 }
 
 .divider {
-  border-top: 1.5px solid #bc1717;
-  margin-top: 10px 0;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 10px;
 }
 
 .home-section {
@@ -531,8 +531,8 @@ html {
   }
 
   .divider {
-    border-top: 1.5px solid #bc1717;
-    margin-top: 10px 0;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 10px;
   }
 
   .question {
@@ -662,11 +662,6 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
-  }
-
-  .divider {
-    border-top: 1.5px solid #bc1717;
-    margin-top: 10px 0;
   }
 
   .download-buttons {
