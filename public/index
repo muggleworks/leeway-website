@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Track your vehicle fuel expenses with ease using leeway, the smart expense tracker. Get valuable insights on your mileage and cost per kilometer, and optimize your driving habits for maximum savings. Start saving time and money on your car expenses today.">
-  <title>leeway - vehicle expense tracker</title>
+  <title>Leeway - Vehicle expense tracker</title>
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,7 +104,7 @@
             <button><img src="images/add.svg" id="Q1-icon"></button>
             Are the insights accurate?
           </div>
-          <br>
+
           <p id="Q1" class="answer hidden">
             Yes, the insights provided by our vehicle expense tracker are accurate. Our advanced data processing
             algorithms analyze the information you provide, such as fuel expenses and mileage, to generate these
@@ -112,19 +112,25 @@
             system. Therefore, we recommend inputting your vehicle's expenses regularly and ensuring the information
             isaccurate and up-to-date to obtain the most precise insights possible.
           </p>
+          <hr>
           <div onclick="expand('Q2')" class="question">
             <button><img src="images/add.svg" id="Q2-icon"></button>
             Is it possible to track expenses for multiple vehicles?
-          </div><br>
+          </div>
+
+
           <p id="Q2" class="answer hidden">
             At the moment, tracking expenses for multiple vehicles is not available, but we are constantly
             improving our product and adding new features to meet our users' needs. We are happy to inform you
             that the ability to track expenses for multiple vehicles is coming soon. Please stay tuned for updates
             and feel free to reach out to us if you have any further questions or feedback.</p>
+          <hr>
+
+
           <div onclick="expand('Q3')" class="question">
             <button><img src="images/add.svg" id="Q3-icon"></button>
             Is it necessary to create an account to use the app?
-          </div><br>
+          </div>
           <p id="Q3" class="answer hidden">
             Currently, to use our app, you need to create an account using either your Google or Apple sign-in
             credentials. However, we are continuously improving our product and working on a new version that will
@@ -132,6 +138,8 @@
             feature for some of our users, and we're committed to making it happen. Stay tuned for updates on the new
             version,and feel free to contact us if you have any further questions or feedback.
           </p>
+          <hr>
+
           <div onclick="expand('Q4' )" class="question">
             <button><img src="images/add.svg" id="Q4-icon"></button>
             Is my data stored securely with encryption?
@@ -140,6 +148,7 @@
             data security and privacy very seriously, and we're actively working on adding encryption to our
             platform in the near future. We want to ensure that all our users' data is protected and secure.</p>
         </div>
+        <hr>
       </div>
     </section>
     <section class="download-section">
