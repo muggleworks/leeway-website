@@ -9,7 +9,7 @@
   font-family: "Rubik";
   font-style: normal;
   font-size: 14px;
-  color: #03030F;
+  color: var(--text-primary-color);
 }
 
 .download-section {
@@ -48,7 +48,7 @@
   background-color: #ffffff;
   border-radius: 10px;
   display: block;
-  color: #000000;
+  color: #d81010;
   text-decoration: none;
   width: 180px;
   height: 70px;
@@ -99,7 +99,7 @@
   display: flex;
   text-decoration: none;
   font-size: 18px;
-  color: #03030F;
+  color: var(--text-primary-color);
   font-weight: 500;
   transition-duration: 0.3s;
 }
@@ -125,6 +125,7 @@
   margin-bottom: 30px;
   font-family: "Rubik";
   font-style: normal;
+  color: var(--text-primary-color);
   background-image: url(images/design3.svg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -140,7 +141,7 @@
   align-items: center;
   justify-content: flex-start;
   font-size: 50px;
-  color: #03030F;
+  
   height: 80px;
   margin-bottom: 32px;
 }
@@ -149,7 +150,7 @@
   width: 506px;
   font-size: 16px;
   line-height: 32px;
-  color:#03030F ;
+  
 }
 
 .image-section {
@@ -168,7 +169,7 @@
   background-image: url(images/design2.svg);
   background-repeat: no-repeat;
   background-position: left;
-  color: #03030F;
+  color: var(--text-primary-color);
 }
 
 .faq-head {
@@ -231,7 +232,7 @@
 
 .home-content {
   width: 640px;
-  color:#03030F;
+  color: var(--text-primary-color);
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
@@ -286,7 +287,7 @@
   padding: 100px 40px;
   margin: 0 auto;
   font-family: Rubik, sans;
-  color: #03030F;
+  color: var(--text-primary-color);
 }
 
 .t-and-c-container * {
@@ -746,8 +747,16 @@ html {
 }
 .secondary{
 
-color: #999999;
+color: var(--text-seocndary-color);
 }
 .primary{
-  color: #03030F;
+  color: var(--text-primary-color);
+}
+:root{
+  --text-primary-color:  #03030F;
+ 
+
+}
+:root{
+  --text-seocndary-color:  #999999;
 }
