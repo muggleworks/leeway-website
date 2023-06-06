@@ -86,7 +86,7 @@
 }
 
 .header-bar {
-  
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   font-family: "Rubik";
@@ -95,7 +95,7 @@
   max-width: 1300px;
   position: fixed;
   top: 0px;
-  left: 50px;
+  /* left: 0px; */
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
