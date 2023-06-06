@@ -8,7 +8,6 @@
     "prepare": "husky install",
     "pretty": "prettier --write 'src/**/*.ts'",
     "lint": "prettier --check ."
-
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +24,7 @@
     "lint-staged": "^13.2.2"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,html,json}": "prettier --cache --write"
   }
 }
