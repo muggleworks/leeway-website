@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pretty": "prettier --write 'src/**/*.ts'",
+    "lint": "prettier --check ."
+
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +21,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
