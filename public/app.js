@@ -23,11 +23,23 @@ function expand(elementId) {
 function menuIconClick() {
     const menuClick = document.getElementById('menuId');
     menuClick.style.display = "block";
+    const logo= document.getElementById('logo');
+    logo.style.display="none"
+    const  hamurgerMenu= document.getElementById('menuIcon');
+    hamurgerMenu.style.display="none";
+    const headerBar = document.querySelector('.header-bar');
+    headerBar.style.display="none"
 
 }
 function closeButton() {
     const menuClose = document.getElementById('menuId');
     menuClose.style.display = 'none';
+    const logo= document.getElementById('logo');
+    logo.style.display="block"
+    const  hamurgerMenu= document.getElementById('menuIcon');
+    hamurgerMenu.style.display="block";
+    const headerBar = document.querySelector('.header-bar');
+    headerBar.style.display="flex"
 }
 
 

@@ -74,6 +74,7 @@
 .icon {
   width: 130px;
   height: 80px;
+  padding-top:10px;
 }
 
 .menu {
@@ -86,7 +87,6 @@
 }
 
 .header-bar {
-  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   font-family: "Rubik";
@@ -205,6 +205,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 .question {
   display: flex;
@@ -329,6 +330,7 @@
   width: 100%;
   height: 100vh;
   position: fixed;
+  padding-top: 150px;
   left: 0;
   top: 0;
   background-color: #EA918A;
@@ -437,7 +439,7 @@ html {
   .icon {
     width: 74px;
     height: 54px;
-    display: none;
+    display: flex;
   }
 
   .download-button {
@@ -517,14 +519,20 @@ html {
 
   .menu {
     display: flex;
+    margin-left: -125px;
     
+  }
+  .menu-nav{
+    margin-top: 150px;
+
   }
   .nav-bar{
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
   }
   .header-bar{
     background-color: none;
+    justify-content: space-between;
   }
 
   .faq {
@@ -568,6 +576,9 @@ html {
   .questions {
     width: 310px;
     line-height:20px;
+  }
+  .menu-option{
+    margin-bottom: 0px;
   }
 
 }
