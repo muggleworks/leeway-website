@@ -95,6 +95,7 @@
   max-width: 1300px;
   position: fixed;
   top: 0px;
+  box-sizing: border-box;
   /* left: 0px; */
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(10px);
