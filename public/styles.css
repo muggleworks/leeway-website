@@ -412,6 +412,13 @@ html {
     width: 300px;
 
   }
+  .menu-option {
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+  }
+  .menu-nav{
+    padding-top: 125px;
+  }
  
 
   .download-buttons {
