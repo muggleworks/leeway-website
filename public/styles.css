@@ -91,6 +91,16 @@
   font-family: "Rubik";
   font-style: normal;
   padding-bottom: 20px;
+  width: 100%;
+  /* max-width: 1300px; */
+  top: 0px;
+  /* left: 0px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  padding-top: 5px;
+  box-sizing: border-box;
 }
 
 .nav-button {
@@ -109,6 +119,7 @@
 .nav-bar {
   display: flex;
   gap: 30px;
+  margin-right: 125px;
   align-items: center;
 }
 
@@ -183,6 +194,7 @@
   background-image: url(images/rect.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 80px;
 
 }
 
@@ -337,6 +349,7 @@
   color: #ffffff;
   font-weight: 500;
   display: flex;
+
   flex-direction: column;
   margin-bottom: 30px;
   align-items: center;
@@ -399,6 +412,7 @@ html {
     width: 300px;
 
   }
+ 
 
   .download-buttons {
     display: flex;
@@ -505,7 +519,11 @@ html {
 
   .menu {
     display: block;
-  }
+}
+.nav-bar{
+  margin-right: 50px; 
+ }
+
 
   .faq {
     width: 100%;
