@@ -1,0 +1,29 @@
+{
+  "name": "leeway-website",
+  "version": "1.0.0",
+  "description": "Welcome to the Leeway landing page repository! This repository contains the source code for the Leeway website, which is built with pure HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "pretty": "prettier --write 'src/**/*.ts'",
+    "lint": "prettier --check ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,html,json}": "prettier --cache --write"
+  }
+}
