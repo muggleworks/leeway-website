@@ -23,14 +23,12 @@ function expand(elementId) {
 function menuIconClick() {
     const menuClick = document.getElementById('menuId');
     menuClick.style.display = "block";
-    // menu.classList.add("nav-menu")
 
 
 }
 function closeButton() {
     const menuClose = document.getElementById('menuId');
     menuClose.style.display = 'none';
-    // closeMenu.classList.remove("close")
 }
 
 
