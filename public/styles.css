@@ -129,10 +129,6 @@
   background-position: right;
 }
 
-/* .mobile {
-  height: 600px;
-} */
-
 .rect {
   height: 630px;
   width: 290px;
@@ -141,6 +137,11 @@
   margin-bottom: 10px;
   margin-right: 200px;
 }
+
+/* .mobile {
+  height: 600px;
+} */
+
 
 .howitworks-content h2 {
   display: flex;
@@ -477,6 +478,16 @@ html {
     height: 435px;
     width: 200px;
     background-size: cover;
+  }
+
+  .rect {
+    display: none;
+    height: 630px;
+    width: 290px;
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 200px;
   }
 
   .howitworks-content h2 {
