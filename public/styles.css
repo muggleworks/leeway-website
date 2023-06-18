@@ -34,7 +34,6 @@
   gap: 180px;
   justify-content: center;
   width: 501px;
-
 }
 
 .download-buttons {
@@ -103,9 +102,6 @@
   width: 100%;
   max-width: 1300px;
   padding: 8px;
- 
- 
-  
 }
 
 .nav-button {
@@ -227,7 +223,6 @@
   transition-duration: 0.3s;
 }
 
-
 .question button {
   width: 24px;
   height: 24px;
@@ -260,10 +255,6 @@
 .home {
   height: 100vh;
 }
-
-/* .image-mobile {
-  display: flex;
-} */
 
 .body {
   box-sizing: border-box;
@@ -327,8 +318,6 @@
   padding-left: 48px;
   padding-right: 48px;
 }
-
-
 
 .nav-menu {
   width: 100%;
