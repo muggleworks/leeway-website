@@ -75,27 +75,19 @@
   width: 130px;
   height: 80px;
 }
-.nav-menu{
-  z-index: 700;
-}
 
 .menu {
-  width: 18px;
-  height: 12px;
   display: none;
   cursor: pointer;
   background-color: transparent;
   border-color: transparent;
 }
 .header-bar{
-  max-width: 1300px;
   display: flex;
   width: 100%;
   justify-content: center;
   top: 0px;
-  /* left: 0px; */
-  font-family: "Rubik";
-  font-style: normal;
+  left: 0px;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -110,7 +102,7 @@
   font-style: normal;
   width: 100%;
   max-width: 1300px;
-  padding: 10px 10px;
+  padding: 8px;
  
  
   
@@ -352,6 +344,7 @@
   flex-direction: column;
   display: none;
   padding-top: 60px;
+  z-index: 700;
 }
 
 .menu-option {
@@ -426,7 +419,6 @@ html {
   }
   .menu-option {
     margin-bottom: 10px;
-    padding-bottom: 25px;
   }
   .menu-nav{
     padding-top: 125px;
@@ -539,9 +531,7 @@ html {
   .menu {
     display: block;
    }
-.nav-bar{
-  margin-right: 50px; 
- }
+
 
 
   .faq {
