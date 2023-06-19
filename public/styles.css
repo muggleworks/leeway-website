@@ -35,7 +35,6 @@
   gap: 180px;
   justify-content: center;
   width: 501px;
-
 }
 
 .download-buttons {
@@ -79,20 +78,32 @@
 }
 
 .menu {
-  width: 18px;
-  height: 12px;
   display: none;
   cursor: pointer;
   background-color: transparent;
   border-color: transparent;
 }
+.header-bar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  box-sizing: border-box;
 
-.header-bar {
+}
+.nav-contents {
   display: flex;
   justify-content: space-between;
   font-family: "Rubik";
   font-style: normal;
-  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 8px;
 }
 
 .nav-button {
@@ -195,6 +206,7 @@
   background-image: url(images/rect.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 80px;
 
 }
 
@@ -222,7 +234,6 @@
   opacity: 0.6;
   transition-duration: 0.3s;
 }
-
 
 .question button {
   width: 24px;
@@ -257,10 +268,6 @@
 .home {
   height: 100vh;
 }
-
-/* .image-mobile {
-  display: flex;
-} */
 
 .body {
   box-sizing: border-box;
@@ -323,8 +330,6 @@
   padding: 12px  10px;
 }
 
-
-
 .nav-menu {
   width: 100%;
   height: 100vh;
@@ -339,6 +344,7 @@
   flex-direction: column;
   display: none;
   padding-top: 60px;
+  z-index: 700;
 }
 
 .menu-option {
@@ -348,6 +354,7 @@
   color: #ffffff;
   font-weight: 500;
   display: flex;
+
   flex-direction: column;
   margin-bottom: 30px;
   align-items: center;
@@ -410,6 +417,13 @@ html {
     width: 300px;
 
   }
+  .menu-option {
+    margin-bottom: 10px;
+  }
+  .menu-nav{
+    padding-top: 125px;
+  }
+ 
 
   .download-buttons {
     display: flex;
@@ -516,7 +530,9 @@ html {
 
   .menu {
     display: block;
-  }
+   }
+
+
 
   .faq {
     width: 100%;

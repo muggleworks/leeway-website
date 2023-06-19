@@ -23,7 +23,6 @@ function expand(elementId) {
 function menuIconClick() {
     const menuClick = document.getElementById('menuId');
     menuClick.style.display = "block";
-
 }
 function closeButton() {
     const menuClose = document.getElementById('menuId');
