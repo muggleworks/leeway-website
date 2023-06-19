@@ -114,6 +114,14 @@
   align-items: center;
 }
 
+.rect {
+  width: 270px;
+  height: 580.86px;
+  margin-left: 60px;
+  border: 4px solid #03030F;
+  border-radius: 20px;
+}
+
 .howitworks {
   display: flex;
   justify-content: space-around;
@@ -152,6 +160,7 @@
   line-height: 32px;
   
 }
+
 
 .image-section {
   display: flex;
