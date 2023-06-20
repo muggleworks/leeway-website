@@ -12,6 +12,7 @@
   color: var(--text-primary-color);
 }
 
+
 .download-section {
   background-color: #da6b90;
   width: 100%;
@@ -140,9 +141,9 @@
   background-position: right;
 }
 
-/* .mobile {
-  height: 600px;
-} */
+.mobile {
+  height: 450px;
+}
 
 .howitworks-content h2 {
   display: flex;
@@ -161,13 +162,14 @@
   
 }
 
-
 .image-section {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  height: 600px;
+  display: none;
+  background-image: url('images/img2.png');
+  height: 435px;
+  width: 200px;
+  background-size: cover;
 }
+
 
 .faq {
   width: 100%;
@@ -406,7 +408,6 @@ html {
 }
 
 
-
 @media screen and (max-width: 700px) {
 
   .download-section {
@@ -460,11 +461,6 @@ html {
 
   .rect {
     display: none;
-    width: 270px;
-    height: 580.86px;
-    margin-left: 60px;
-    border: 4px solid #03030F;
-    border-radius: 20px;
   }
 
   .howitworks {
@@ -474,12 +470,9 @@ html {
   }
 
   .image-section {
-    background-image: url('images/img2.png');
-    height: 435px;
-    width: 200px;
-    background-size: cover;
+    display: block;
   }
-
+    
 
   .howitworks-content h2 {
     font-size: 24px;
@@ -598,10 +591,11 @@ html {
   } */
 
   .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+  }
 
+  .rect {
+    display: none;
   }
 
   .howitworks {
@@ -671,15 +665,6 @@ html {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .rect {
-    display: none;
-    width: 270px;
-    height: 580.86px;
-    margin-left: 60px;
-    border: 4px solid #03030F;
-    border-radius: 20px;
   }
 
   .howitworks-content h2 {
