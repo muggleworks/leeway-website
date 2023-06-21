@@ -76,7 +76,7 @@
 .icon {
   width: 130px;
   height: 80px;
-  
+
 }
 
 .menu {
@@ -150,7 +150,7 @@
   align-items: center;
   justify-content: flex-start;
   font-size: 50px;
-  
+
   height: 80px;
   margin-bottom: 32px;
 }
@@ -159,7 +159,7 @@
   width: 506px;
   font-size: 16px;
   line-height: 32px;
-  
+
 }
 
 .image-section {
@@ -190,7 +190,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  
+
 }
 
 .divider {
@@ -271,18 +271,13 @@
   height: 100vh;
 }
 
-/* .image-mobile {
-  display: flex;
-} */
-
 .body {
   box-sizing: border-box;
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 12px  10px;
+  padding: 12px 10px;
 }
-
 
 .answer {
   font-family: "rubik";
@@ -333,7 +328,7 @@
 .terms-and-conditions {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 12px  10px;
+  padding: 12px 10px;
 }
 
 
@@ -459,20 +454,11 @@ html {
     padding: 3px 6px;
   }
 
-  .rect {
-    display: none;
-  }
-
   .howitworks {
     width: 100%;
     flex-direction: column-reverse;
     gap: 50px;
   }
-
-  .image-section {
-    display: block;
-  }
-    
 
   .howitworks-content h2 {
     font-size: 24px;
@@ -490,9 +476,6 @@ html {
     text-align: center;
   }
 
-  /* .mobile {
-    height: 350px;
-  } */
 
   .home-section {
     width: 100%;
@@ -579,16 +562,12 @@ html {
 
   .questions {
     width: 310px;
-    line-height:20px;
+    line-height: 20px;
   }
 
 }
 
-@media (max-width: 914px) and (min-width: 701px) {
-
-  /* .mobile {
-    height: 300px;
-  } */
+@media (max-width: 900px) {
 
   .image-section {
     display: block;
@@ -597,6 +576,11 @@ html {
   .rect {
     display: none;
   }
+
+}
+
+
+@media (max-width: 914px) and (min-width: 701px) {
 
   .howitworks {
     display: flex;
@@ -704,6 +688,7 @@ html {
   }
 }
 
+
 @media (max-width: 1340px) and (min-width: 915px) {
   .download-section {
     flex-direction: column;
@@ -724,9 +709,6 @@ html {
     width: 100%;
   }
 
-  /* .mobile {
-    height: 450px;
-  } */
 
   .image-property {
     width: 100%;
@@ -774,18 +756,22 @@ html {
     height: 78vh;
   }
 }
-.secondary{
 
-color: var(--text-seocndary-color);
+.secondary {
+
+  color: var(--text-seocndary-color);
 }
-.primary{
+
+.primary {
   color: var(--text-primary-color);
 }
-:root{
-  --text-primary-color:  #03030F;
- 
+
+:root {
+  --text-primary-color: #03030F;
+
 
 }
-:root{
-  --text-seocndary-color:  #999999;
+
+:root {
+  --text-seocndary-color: #999999;
 }
