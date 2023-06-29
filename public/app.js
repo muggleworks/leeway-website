@@ -21,12 +21,12 @@ function expand(elementId) {
 
 }
 function menuIconClick() {
-    const menuClick = document.getElementById('menuId');
-    menuClick.style.display = "block";
+    const menu = document.getElementById('menuId');
+    menu.classList.add("menu-open")
 }
 function closeButton() {
-    const menuClose = document.getElementById('menuId');
-    menuClose.style.display = 'none';
+    const menu = document.getElementById('menuId');
+    menu.classList.remove("menu-open")
 }
 
 
