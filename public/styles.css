@@ -35,7 +35,6 @@
   gap: 180px;
   justify-content: center;
   width: 501px;
-
 }
 
 .download-buttons {
@@ -75,24 +74,37 @@
 .icon {
   width: 130px;
   height: 80px;
-  
+
 }
 
 .menu {
-  width: 18px;
-  height: 12px;
   display: none;
   cursor: pointer;
   background-color: transparent;
   border-color: transparent;
 }
 
-.header-bar {
+.header-bar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  box-sizing: border-box;
+
+}
+.nav-contents {
   display: flex;
   justify-content: space-between;
   font-family: "Rubik";
   font-style: normal;
-  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 8px;
 }
 
 .nav-button {
@@ -114,6 +126,14 @@
   align-items: center;
 }
 
+.rect {
+  width: 270px;
+  height: 580.86px;
+  margin-left: 60px;
+  border: 4px solid #03030F;
+  border-radius: 20px;
+}
+
 .howitworks {
   display: flex;
   justify-content: space-around;
@@ -133,7 +153,7 @@
 }
 
 .mobile {
-  height: 600px;
+  height: 450px;
 }
 
 .howitworks-content h2 {
@@ -141,7 +161,7 @@
   align-items: center;
   justify-content: flex-start;
   font-size: 50px;
-  
+
   height: 80px;
   margin-bottom: 32px;
 }
@@ -150,7 +170,7 @@
   width: 506px;
   font-size: 16px;
   line-height: 32px;
-  
+
 }
 
 .container {
@@ -175,9 +195,13 @@
 }
 
 .image-section {
-  display: flex;
-  justify-content: center;
+  display: none;
+  background-image: url('images/img2.png');
+  height: 435px;
+  width: 200px;
+  background-size: cover;
 }
+
 
 .faq {
   width: 100%;
@@ -198,7 +222,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  
+
 }
 
 .divider {
@@ -216,6 +240,7 @@
   background-image: url(images/rect.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 80px;
 
 }
 
@@ -243,7 +268,6 @@
   opacity: 0.6;
   transition-duration: 0.3s;
 }
-
 
 .question button {
   width: 24px;
@@ -279,18 +303,13 @@
   height: 100vh;
 }
 
-/* .image-mobile {
-  display: flex;
-} */
-
 .body {
   box-sizing: border-box;
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 12px  10px;
+  padding: 12px 10px;
 }
-
 
 .answer {
   font-family: "rubik";
@@ -341,16 +360,14 @@
 .terms-and-conditions {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 12px  10px;
+  padding: 12px 10px;
 }
-
-
 
 .nav-menu {
   width: 100%;
   height: 100vh;
   position: fixed;
-  left: 0;
+  left: 100%;
   top: 0;
   background-color: #EA918A;
   font-family: 'rubik';
@@ -360,6 +377,8 @@
   flex-direction: column;
   display: none;
   padding-top: 60px;
+  z-index: 700;
+  transition: 0.3s;
 }
 
 .menu-option {
@@ -411,10 +430,13 @@
   transform: scale(1.2);
 }
 
+.menu-open {
+  transform: translateX(-100%);
+}
+
 html {
   scroll-behavior: smooth;
 }
-
 
 
 @media screen and (max-width: 700px) {
@@ -431,6 +453,13 @@ html {
     width: 300px;
 
   }
+  .menu-option {
+    margin-bottom: 10px;
+  }
+  .menu-nav{
+    padding-top: 125px;
+  }
+ 
 
   .download-buttons {
     display: flex;
@@ -490,9 +519,6 @@ html {
     text-align: center;
   }
 
-  .mobile {
-    height: 350px;
-  }
 
   .home-section {
     width: 100%;
@@ -536,6 +562,10 @@ html {
   }
 
   .menu {
+    display: flex;
+   }
+
+  .nav-menu{
     display: block;
   }
 
@@ -592,22 +622,25 @@ html {
 
   .questions {
     width: 310px;
-    line-height:20px;
+    line-height: 20px;
   }
 
 }
 
-@media (max-width: 914px) and (min-width: 701px) {
-
-  .mobile {
-    height: 300px;
-  }
+@media (max-width: 900px) {
 
   .image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
   }
+
+  .rect {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 914px) and (min-width: 701px) {
 
   .howitworks {
     display: flex;
@@ -727,6 +760,7 @@ html {
   }
 }
 
+
 @media (max-width: 1340px) and (min-width: 915px) {
   .download-section {
     flex-direction: column;
@@ -747,9 +781,6 @@ html {
     width: 100%;
   }
 
-  .mobile {
-    height: 450px;
-  }
 
   .image-property {
     width: 100%;
@@ -809,18 +840,22 @@ html {
     height: 78vh;
   }
 }
-.secondary{
 
-color: var(--text-seocndary-color);
+.secondary {
+
+  color: var(--text-seocndary-color);
 }
-.primary{
+
+.primary {
   color: var(--text-primary-color);
 }
-:root{
-  --text-primary-color:  #03030F;
- 
+
+:root {
+  --text-primary-color: #03030F;
+
 
 }
-:root{
-  --text-seocndary-color:  #999999;
+
+:root {
+  --text-seocndary-color: #999999;
 }
