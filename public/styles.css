@@ -153,6 +153,27 @@
   
 }
 
+.container {
+  display: flex;
+}
+
+.rect {
+  width: 275px;
+  height: 575.86px;
+  background-color:red;
+  margin-right: -35px;
+  border : 3px solid #03030F;
+  border-radius: 10px;
+}
+
+.rect1 {
+  width: 275px;
+  height: 575.86px;
+  background-color: green;
+  margin-left: 30px;
+  border:#03030F;
+}
+
 .image-section {
   display: flex;
   justify-content: center;
@@ -529,6 +550,19 @@ html {
     display: none;
   }
 
+  .container {
+    display: none;
+  }
+  
+  .rect {
+    display: none;
+  }
+  
+  .rect1 {
+    display: none;
+  }
+  
+
   .faq-head {
     font-size: 28px;
     display: flex;
@@ -665,6 +699,18 @@ html {
     display: flex;
   }
 
+  .container {
+    display: none;
+  }
+  
+  .rect {
+    display: none;
+  }
+  
+  .rect1 {
+    display: none;
+  }
+
   .download-buttons {
     gap: 40px;
     align-items: center;
@@ -737,6 +783,18 @@ html {
 
   .howitworks-content h2 {
     font-size: 35px;
+  }
+
+  .container {
+    display: none;
+  }
+  
+  .rect {
+    display: none;
+  }
+  
+  .rect1 {
+    display: none;
   }
 
   .faq-head {
