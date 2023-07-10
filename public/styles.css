@@ -615,17 +615,13 @@ html {
 
 @media (max-width: 900px) {
 
-  /* .image-section {
+  .image-section {
     display: block;
-  } */
-
-  .container {
-    display: flex;
   }
 
-  /* .rect {
+  .container {
     display: none;
-  } */
+  }
 
 }
 
