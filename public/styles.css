@@ -718,10 +718,6 @@ html {
     display: flex;
   }
 
-  .container {
-    display: flex;
-  }
-
   .download-buttons {
     gap: 40px;
     align-items: center;
