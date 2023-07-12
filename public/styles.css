@@ -175,11 +175,23 @@
 }
 
 .rect {
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #EA6290;
   width: 275px;
   height: 575.86px;
-  background-color:red;
+  background-color:white;
   flex-shrink: 0;
   margin-right: -11px;
+}
+
+.rect-head {
+  display: flex;
+  gap: 160px;
+  align-items: center;
 }
 
 .rect1 {
