@@ -169,18 +169,15 @@
   display: flex;
   width: 275px;
   height: 575.86px;
-  border : 3px solid #03030F;
+  /* border : 3px solid #03030F; */
   border-radius: 10px;
   margin-left: 30px;
 }
 
 .rect {
-  font-family: Rubik;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #EA6290;
+  border: 3px solid #03030F;
+  border-radius: 10px;
+  padding-left: 25px;
   width: 275px;
   height: 575.86px;
   background-color:white;
@@ -188,9 +185,21 @@
   margin-right: -11px;
 }
 
+.rect p {
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(to right, #ea6290 0.05%, #ec7363 31.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .rect-head {
+  padding-right: 25px;
   display: flex;
-  gap: 160px;
+  justify-content: space-between;
   align-items: center;
 }
 
