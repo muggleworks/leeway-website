@@ -12,6 +12,9 @@ To deploy the Leeway landing page locally, follow these steps:
 - Clone the repository: `git clone https://github.com/zympl/leeway-website.git`
 - Navigate to the project directory: `cd leeway-website`
 
+Before starting development,install all the dependencies using the following command:
+                      ``` npm install ``` or ```npm i ```
+
 That's it! You can now open the `public/index.html` file in your preferred web browser to view the Leeway landing page.
 
 ## Contributing
