@@ -207,18 +207,6 @@
   display: flex;
 }
 
-/* .card {
-  display: inline-flex;
-  height: 23px;
-  width: 100px;
-  padding: 59px 22px 67px 20px;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 24px;
-  background: linear-gradient(91deg, #EC7363 0%, #EA6290 100%);
-} */
 
 .left-card {
   width: 150px;
@@ -911,14 +899,6 @@ html {
 
 :root {
   --text-primary-color: #03030F;
-
-
-}
-
-:root {
   --text-secondary-color: #999999;
-}
-
-:root {
   --text-main-color: #fff
 }
