@@ -176,7 +176,7 @@
   border: 3px solid #03030F;
   border-radius: 10px;
   padding-left: 25px;
-  width: 275px;
+  width: 100%;
   height: 575.86px;
   background-color:white;
   flex-shrink: 0;
@@ -203,12 +203,13 @@
 
 .container-card {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 
-
 .left-card {
-  width: 150px;
-  height: 150px;
+  width: 50%;
+  height: 25%;
   border-radius: 25px;
   background: linear-gradient(91DEG, #EC7363 0%, #EA6290 100%);
   display: flex;
@@ -226,14 +227,13 @@
   font-weight: 400;
   line-height: normal;
   text-indent: -50%;
-  
 }
 
 .heading2 {
   color: var(--text-main-color);
   margin: 0;
   font-family: Rubik;
-  font-size: 26px;
+  font-size: 1.7em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -241,10 +241,10 @@
 
 .right-card {
   display: inline-flex;
-  height: 110px;
+  height: 17%;
   margin-left: -5px;
-  margin-top: 9px;
-  width: 85px;
+  margin-top: 19px;
+  width: 28%;
   padding: 0px 7px 12px 25px;
   align-items: center;
   flex-shrink: 1;
@@ -256,14 +256,15 @@
 .right-card h2 {
   color: #EC7363;
   font-family: Rubik;
-  font-size: 21px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal; 
+  line-height: normal;
+  align-items: center;
 }
 
 .rect1 {
-  width: 275px;
+  width: 100%;
   height: 575.86px;
   background-color: green;
   flex-shrink: 0;
@@ -276,7 +277,6 @@
   width: 200px;
   background-size: cover;
 }
-
 
 .faq {
   width: 100%;
