@@ -222,12 +222,12 @@
 .heading1 {
   color: var(--text-main-color);
   margin: 0;
+  padding-right: 40%;
   font-family: Rubik;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: -37%;
 }
 
 .heading2 {
@@ -244,7 +244,7 @@
   box-sizing: border-box;
   display: inline-flex;
   height: 80px;
-  width: 65px;
+  width: 80px;
   padding: 20%;
   align-items: center;
   justify-content: center;
