@@ -266,11 +266,10 @@
 .list-head {
   color: #999;
   font-family: Rubik;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 10px;
 }
 
 .list-container {
