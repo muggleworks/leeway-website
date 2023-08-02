@@ -224,9 +224,6 @@
   padding-right: 40%;
   font-family: Rubik;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .heading2 {
@@ -234,9 +231,7 @@
   margin: 0;
   font-family: Rubik;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .right-card {
@@ -258,9 +253,67 @@
   color: #EC7363;
   font-family: Rubik;
   font-size: 21px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal; 
+}
+
+.list-head {
+  color: #999;
+  font-family: Rubik;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.left-big-heading {
+  color: #03030F;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.left-small-heading {
+  color: #999;
+  font-family: Rubik;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.right-big-heading {
+  color: #03030F;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  align-self: self-end;
+}
+
+.right-small-heading {
+  color: #999;
+  font-family: Rubik;
+  font-size: 12px;
+  text-transform: lowercase;
+  align-self: self-end;
+  padding-top: 8px;
+}
+
+.list-item {
+  box-sizing: border-box;
+  padding: 1px;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid rgba(236, 115, 99, 0.60);
+}
+
+.list-item:hover {
+  background: rgba(236, 115, 99, 0.30);
 }
 
 .rect1 {
@@ -277,7 +330,6 @@
   width: 200px;
   background-size: cover;
 }
-
 
 .faq {
   width: 100%;
