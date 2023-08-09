@@ -316,6 +316,21 @@
   background: rgba(236, 115, 99, 0.30);
 }
 
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(91deg, #EA6290 0%, #EC7363 100%);;
+  border: transparent;
+  margin-top: -7px;
+}
+
 .rect1 {
   width: 100%;
   height: 575.86px;
