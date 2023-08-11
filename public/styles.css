@@ -183,7 +183,7 @@
   margin-right: -11px;
 }
 
-.rect p {
+.rect p , .rect1 p {
   font-family: Rubik;
   font-size: 24px;
   font-style: normal;
@@ -332,10 +332,20 @@
 }
 
 .rect1 {
+  border: 3px solid #03030F;
+  border-radius: 10px;
   width: 100%;
   height: 575.86px;
-  background-color: green;
+  background-color: white;
   flex-shrink: 0;
+  margin-right: -11px;
+}
+
+.rect1-head {
+  padding-right: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .image-section {
