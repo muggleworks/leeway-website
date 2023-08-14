@@ -337,19 +337,23 @@
   font-weight: 400;
 }
 
-.add-button {
+.add-button, .mark-button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.plus {
+.plus, .check {
   width: 56px;
   height: 56px;
   border-radius: 12px;
   background: linear-gradient(91deg, #EA6290 0%, #EC7363 100%);;
   border: transparent;
   margin-top: -7px;
+}
+
+.check {
+  margin-top: 60%;
 }
 
 .rect1 {
