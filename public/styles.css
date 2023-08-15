@@ -321,20 +321,18 @@
 }
 
 .field-item {
-  justify-content: center;
+  width: 240px;
   height: 38px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.field-item::placeholder {
+  color: #545454;
 }
 
 .list-item:hover, .field-item:hover {
   background: rgba(236, 115, 99, 0.30);
-}
-
-.fields {
-  text-indent: 10px;
-  color: #545454;
-  font-family: Rubik;
-  font-size: 13px;
-  font-weight: 400;
 }
 
 .add-button {
