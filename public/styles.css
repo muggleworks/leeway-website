@@ -318,11 +318,12 @@
   align-items: center;
   gap: 15px;
   padding-top: 5px;
+  margin-right: 50px;
 }
 
 .field-item {
-  width: 240px;
-  height: 38px;
+  width: 128%;
+  height: 50%;
   padding: 10px;
   flex-shrink: 0;
 }
