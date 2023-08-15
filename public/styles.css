@@ -316,13 +316,13 @@
   background: rgba(236, 115, 99, 0.30);
 }
 
-.add-button {
+.add-button, .mark-button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.plus {
+.plus, .check {
   width: 56px;
   height: 56px;
   border-radius: 12px;
@@ -331,10 +331,16 @@
   margin-top: -7px;
 }
 
+.check {
+  margin-top: 60%;
+}
+
 .rect1 {
+  border: 3px solid #03030F;
+  border-radius: 10px;
   width: 100%;
   height: 575.86px;
-  background-color: green;
+  background-color: white;
   flex-shrink: 0;
 }
 
