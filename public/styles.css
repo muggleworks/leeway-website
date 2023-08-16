@@ -323,7 +323,7 @@
 
 .field-item {
   width: 128%;
-  height: 50%;
+  height: 35px;
   padding: 10px;
   flex-shrink: 0;
 }
