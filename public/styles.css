@@ -317,15 +317,10 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  padding-top: 5px;
-  margin-right: 50px;
 }
 
 .field-item {
-  width: 128%;
-  height: 35px;
-  padding: 10px;
-  flex-shrink: 0;
+  padding: 16px 15px;
 }
 
 .field-item::placeholder {
