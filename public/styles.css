@@ -323,7 +323,7 @@
   justify-content: center;
 }
 
-.plus, .check {
+.plus, .floating-button {
   position: absolute;
   width: 56px;
   height: 56px;
@@ -336,7 +336,7 @@
   bottom: 4px;
 }
 
-.check {
+.floating-button {
   position: absolute;
   bottom: 4px;
   left: 50%;
@@ -399,7 +399,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 80px;
-
 }
 
 .home-head {
