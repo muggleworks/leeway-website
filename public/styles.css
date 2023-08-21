@@ -194,10 +194,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.rect1 p {
-  margin-left: 10px;
-}
-
 .rect-head {
   padding-right: 25px;
   display: flex;
@@ -346,9 +342,8 @@
 
 .rect1-head {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin-right: 80px;
 }
 
 .image-section {
