@@ -173,6 +173,7 @@
 }
 
 .rect {
+  position: relative;
   border: 3px solid #03030F;
   border-radius: 10px;
   padding-left: 25px;
@@ -337,16 +338,28 @@
   justify-content: center;
 }
 
-.plus {
+.plus, .floating-button {
+  position: absolute;
   width: 56px;
   height: 56px;
   border-radius: 12px;
   background: linear-gradient(91deg, #EA6290 0%, #EC7363 100%);;
   border: transparent;
-  margin-top: -7px;
+}
+
+.plus {
+  bottom: 4px;
+}
+
+.floating-button {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .rect1 {
+  position: relative;
   border: 3px solid #03030F;
   border-radius: 10px;
   width: 100%;
@@ -407,7 +420,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 80px;
-
 }
 
 .home-head {
