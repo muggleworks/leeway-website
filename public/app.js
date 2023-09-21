@@ -28,5 +28,13 @@ function closeButton() {
     const menu = document.getElementById('menuId');
     menu.classList.remove("menu-open")
 }
+function showTransactionScreen() {
+    document.getElementById('home-screen').style.display = 'none';
+    document.getElementById('transaction-screen').style.display = 'block';
+}
 
+function showHomeScreen() {
+    document.getElementById('transaction-screen').style.display = 'none';
+    document.getElementById('home-screen').style.display = 'block';
+}
 
