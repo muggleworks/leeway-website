@@ -134,7 +134,7 @@
   border-radius: 20px;
   background-color: white;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-family: "Rubik";
   font-style: normal;
   color: var(--text-primary-color);
@@ -618,7 +618,7 @@
 html {
   scroll-behavior: smooth;
 }
-#transaction-screen {
+#home-screen {
   display: none;
 }
 
