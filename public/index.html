@@ -97,6 +97,7 @@
       </section>
       <div id="howitworks2" class="howitworks">
         <div class="container">
+          <div id="transaction-screen">
           <div class="rect">
             <div class="rect-head">
               <p>leeway</p>
@@ -146,18 +147,26 @@
               <div class="right-small-heading">12/02/2023 - 4:21 PM(42,312KM)</div>
               </div>
               <div class="add-button">
-                <button class="plus">
+                <button class="plus" onclick="showHomeScreen()" style="margin-right: 25px;">
                   <img class="plus-button" src="images/plus.png" />
                 </button>
               </div>
             </div>
           </div>
+        </div>
+        <div id="home-screen">
           <div class="rect1">
             <div class="rect1-head">
               <img src="images/chevron-left.svg" />
               <p class="rect1-heading">fuel expense<p>
+                </div>
+                <div class="add-button">
+                  <button class="plus"  onclick="showTransactionScreen()" >
+                    <img class="plus-button" src="images/plus.png" />
+                  </button>  
             </div>
           </div>
+        </div>
         </div>
         <div class="image-section">
           <img src="images/img2.png" class="mobile" />
